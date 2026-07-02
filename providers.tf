@@ -16,7 +16,6 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1"
-  profile = "invgate_joakoo_curso"
 
   default_tags {
     tags = var.tags
